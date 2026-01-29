@@ -19,8 +19,8 @@
 
 - ○	Transit signal quality: koi_model_snr
 
-### Methodology<br>
-1.	Data Cleaning & Preprocessing<br>
+### Methodology <br>
+1.	Data Cleaning & Preprocessing <br>
 
 - ○	Removed rows with NaN values.
 
@@ -28,17 +28,17 @@
 
 - ○	Encoded target labels into binary/multiclass format.
 
-- ○	Normalized feature values for neural network training.<br>
+- ○	Normalized feature values for neural network training. <br>
 
-2.	Model Architecture (ANN)<br>
+2.	Model Architecture (ANN) <br>
 
 - ○	Input layer: all selected features.
 
 - ○	Hidden layers: Dense layers with ReLU activation.
 
-- ○	Output layer: Sigmoid Activation<br>
+- ○	Output layer: Sigmoid Activation <br>
 
-3.	Training & Validation<br>
+3.	Training & Validation <br>
 
 - ○	Dataset split using train_test_split.
 
@@ -46,7 +46,7 @@
 
 - ○	Optimizer: Adam.
 
-- ○	Metrics tracked: Precision, Recall, Accuracy.<br>
+- ○	Metrics tracked: Precision, Recall, Accuracy. <br>
 
 4. Evaluation<br>
 	
